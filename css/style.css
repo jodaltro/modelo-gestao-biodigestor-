@@ -1,0 +1,82 @@
+
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 155px; /* .push must be the same height as .footer */
+}
+
+.fundo-tabela
+{
+	background-color: transparent; 
+    background-image: url('../img/bg-tabela.png');
+}
+
+.fundo2
+{
+	background: transparent;
+}
+
+.fundo
+{
+	background: transparent;
+	background-image: url("../img/bg3.png");
+	background-size: 100%;
+}
+
+.fundo-header
+{
+	background: transparent;
+	background-image: url("../img/bg-header.jpg");
+	background-size: 100%;
+	box-shadow: 0 3px 5px rgb(151, 178, 152);
+font-family: 'BioRhyme', serif;
+	color: white;
+	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: rgb(5, 76, 13);
+
+}
+
+.porco
+{
+	background: transparent;
+	background-image: url("../img/porco.gif");
+	background-size: 100%;
+}
+
+.fundo-form
+{
+
+	background: transparent ;
+	background-image: url("../img/bg-form.jpg");
+	background-size: 130%;
+}
+
+.fundo-form
+{
+
+	background: transparent ;
+	background-image: url("../img/bg-form.jpg");
+	background-size: 130%;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
